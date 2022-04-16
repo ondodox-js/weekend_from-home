@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,700;0,900;1,700&display=swap"); */
+
+@font-face {
+  font-family: "Work Sans";
+  font-style: italic;
+  font-display: swap;
+  src: url("~assets/fonts/work_sans/work_sans-italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 600;
+  src: url("~assets/fonts/work_sans/static/WorkSans-SemiBoldItalic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Work Sans";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url("~assets/fonts/work_sans/static/WorkSans-MediumItalic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url("~assets/fonts/work_sans/static/WorkSans-Bold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("~assets/fonts/work_sans/static/WorkSans-Medium.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: bold;
+  src: url("~assets/fonts/work_sans/static/WorkSans-ExtraBold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-display: swap;
+  src: url("~assets/fonts/work_sans/work_sans-weight.ttf") format("truetype");
+}
+
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
