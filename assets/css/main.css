@@ -63,6 +63,7 @@
   font-family: "Work Sans", sans-serif;
 }
 
-body {
+body,
+body > div {
   overflow-x: hidden;
 }
